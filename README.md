@@ -1,5 +1,21 @@
 # challenge-pokedex
 Repositorio con exposición de APIs REST e integración con Pokedex APIs
+Esta aplicación dispone solo de un servicio que dado el nombre de un Pokemon, devuelve la siguiente información asociada a este:
+- Nombre (name)
+- Listado de Tipos (types)
+- Peso (weight)
+- Listado de Habilidades (abilities)
+- URL de Foto frontal (sprites) 
+
+A continuación se detallan algunas llamadas al servicio usando curl (http://52.91.224.101:8082/pokedex/pokemon/{nombre}):
+
+ curl -v http://52.91.224.101:8082/pokedex/pokemon/ditto
+ 
+ curl -v http://52.91.224.101:8082/pokedex/pokemon/pikachu
+ 
+ curl -v http://52.91.224.101:8082/pokedex/pokemon/charmander
+ 
+ curl -v http://52.91.224.101:8082/pokedex/pokemon/ddd
 
 ------ Despliegue de la aplicación ------
 
